@@ -1,24 +1,24 @@
 <h1 align="center">
     <br>
-    <a href="https://easyappointments.org">
-        <img src="https://raw.githubusercontent.com/alextselegidis/easyappointments/develop/logo.png" alt="Easy!Appointments" width="150">
+    <a href="https://yourwebsite.com">
+        <img src="https://yourwebsite.com/logo.png" alt="EliteBookings" width="150">
     </a>
     <br>
-    Easy!Appointments
+    EliteBookings
     <br>
 </h1>
 
 <br>
 
 <h4 align="center">
-    A powerful Open Source Appointment Scheduler that can be installed on your server. 
+    A premium Open Source Appointment Scheduler tailored for medical professionals.
 </h4>
 
 <p align="center">
-  <img alt="GitHub" src="https://img.shields.io/github/license/alextselegidis/easyappointments?style=for-the-badge">
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/alextselegidis/easyappointments?style=for-the-badge">
-  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/alextselegidis/easyappointments/total?style=for-the-badge">
-  <a href="https://discord.com/invite/UeeSkaw">
+  <img alt="GitHub" src="https://img.shields.io/github/license/Diegonavva/EliteBookings?style=for-the-badge">
+  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Diegonavva/EliteBookings?style=for-the-badge">
+  <img alt="GitHub All Releases" src="https://img.shields.io/github/downloads/Diegonavva/EliteBookings/total?style=for-the-badge">
+  <a href="https://discord.com/invite/link-to-your-discord">
     <img alt="Chat On Discord" src="https://img.shields.io/badge/chat-on%20discord-7289da?style=for-the-badge&logo=discord&logoColor=white">
   </a>
 </p>
@@ -35,24 +35,20 @@
 
 ## About
 
-**Easy!Appointments** is a highly customizable web application that allows customers to book appointments with you 
-via a sophisticated web interface. Moreover, it provides the ability to sync your data with Google Calendar so you can 
-use them with other services. It is an open source project that you can download and install **even for commercial use**. 
-Easy!Appointments will run smoothly with your existing website as it can be installed in a single folder of the 
-server and of course share an existing database.
+**EliteBookings** is a highly customizable web application designed specifically for the medical sector, enabling professionals to manage appointments efficiently via a sophisticated web interface. It integrates seamlessly with Google Calendar and supports various other services through API connections. This software is open source and can be installed even for commercial use, aligning perfectly with the unique workflow requirements of healthcare professionals.
 
 ## Features
 
-The application is designed to be flexible enough so that it can handle any enterprise work flow. 
+This application is designed with flexibility in mind to accommodate the unique workflows of medical practices:
 
-* Customers and appointments management.
-* Services and providers organization.
-* Working plan and booking rules.
+* Efficient management of patient appointments.
+* Organization of services and healthcare providers.
+* Customizable working plans and appointment rules.
 * Google Calendar synchronization.
-* Email notifications system.
-* Self hosted installation.
-* Translated user interface.
-* User community support. 
+* Secure email notifications system.
+* Self-hosted installation.
+* Multilingual user interface.
+* Robust community support.
 
 ## Setup
 
@@ -60,52 +56,14 @@ To clone and run this application, you'll need [Git](https://git-scm.com), [Node
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/alextselegidis/easyappointments.git
+$ git clone https://github.com/Diegonavva/EliteBookings.git
 
 # Go into the repository
-$ cd easyappointments
+$ cd EliteBookings
 
 # Install dependencies
 $ npm install && composer install
 
 # Start the file watcher
 $ npm start
-```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
-
-You can build the files by running `npm run build`. This command will bundle everything to a `build` directory.
-
-## Installation
-
-You will need to perform the following steps to install the application on your server:
-
-* Make sure that your server has Apache/Nginx, PHP and MySQL installed.
-* Create a new database (or use an existing one).
-* Copy the "easyappointments" source folder on your server.
-* Make sure that the "storage" directory is writable.
-* Rename the "config-sample.php" file to "config.php" and update its contents based on your environment.
-* Open the browser on the Easy!Appointments URL and follow the installation guide.
-
-That's it! You can now use Easy!Appointments at your will.
-
-You will find the latest release at [easyappointments.org](https://easyappointments.org).
-If you have problems installing or configuring the application visit the
-[official support group](https://groups.google.com/forum/#!forum/easy-appointments).
-You can also report problems on the [issues page](https://github.com/alextselegidis/easyappointments/issues)
-and help the development progress.
-
-## License 
-
-Code Licensed Under [GPL v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) | Content Under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/)
-
----
-
-Website [alextselegidis.com](https://alextselegidis.com) &nbsp;&middot;&nbsp;
-GitHub [alextselegidis](https://github.com/alextselegidis) &nbsp;&middot;&nbsp;
-Twitter [@alextselegidis](https://twitter.com/AlexTselegidis)
-
-###### More Projects On Github
-###### ⇾ [Plainpad &middot; Self Hosted Note Taking App](https://github.com/alextselegidis/plainpad)
-###### ⇾ [Questionful &middot; Web Questionnaires Made Easy](https://github.com/alextselegidis/questionful)
-###### ⇾ [Integravy &middot; Service Orchestration At Your Fingertips](https://github.com/alextselegidis/integravy)
